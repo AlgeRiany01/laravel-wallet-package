@@ -1,0 +1,27 @@
+{
+  "name": "algeriany/wallet",
+  "description": "wallet",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "algeriany\\wallet\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AlgeRiany01",
+      "email": "mahmodnew30@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "algeriany\\wallet\\WalletServiceProvider"
+      ]
+    }
+  },
+  "require": {}
+}
